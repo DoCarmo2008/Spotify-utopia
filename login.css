@@ -1,0 +1,141 @@
+:root{
+    --colorbox:rgb(36, 34, 34);
+    --whiteshadow:0em 0.5em 0.7em rgba(255, 255, 255, 0.041);
+}
+
+@font-face {
+    font-family:SoDoSans-Regular ;
+    src: url(Imagens/Fonts/SoDoSans-Regular.ttf);
+}
+
+body{
+    background-image: url(Imagens/utopia\ wallpaper.jpg);
+    background-size:cover;
+}
+
+#section{
+    background: rgb(36, 34, 34);
+    height: 500px;
+    width: 600px;
+    margin: 70px 50px 0px 28% ;
+    border-radius: 40px;
+    box-shadow: 0em 0.5em 0.7em rgba(255, 255, 255, 0.041);
+}
+
+#login-st{
+    margin: 170px 50px 0px 25% ;
+    width: 300px;
+    height: 40px;
+    border: 1px solid white;
+    background-color: transparent;
+    box-shadow: 0em 0.5em 0.7em rgba(255, 255, 255, 0.041);
+    border-radius: 30px;
+    color: white;
+    text-align: center;
+    font-family: SoDoSans-Regular;
+    
+}
+
+#login-st::placeholder{
+    color: white;
+    font-family: SoDoSans-Regular;
+    text-align: center;
+    opacity: 90%;
+    text-shadow: 0.1em 0.2em 0.3em rgba(255, 255, 255, 0.315) ;
+}
+
+
+#senha-st{
+    margin: 30px 50px 0px 25% ;
+    width: 300px;
+    height: 40px;
+    border: 1px solid white;
+    background-color: transparent;
+    box-shadow: 0em 0.5em 0.7em rgba(255, 255, 255, 0.041);
+    border-radius: 30px;
+    color: white;
+    text-align: center;
+    font-family: SoDoSans-Regular;
+}
+
+#senha-st::placeholder{
+    color: white;
+    font-family: SoDoSans-Regular;
+    text-align: center;
+    opacity: 90%;
+    text-shadow: 0.1em 0.2em 0.3em rgba(255, 255, 255, 0.315) ;
+}
+
+#btn-log{
+    width: 300px;
+    height: 40px;
+    background:#1DB954;
+    border:none;
+    border-radius: 30px;
+    font-family: SoDoSans-Regular;
+    color: white;
+    font-size:12pt;
+    text-shadow: 0.1em 0.2em 0.3em rgba(255, 255, 255, 0.315) ;
+    box-shadow: 0em 0.1em 0.3em rgba(255, 255, 255, 0.493);
+    margin: 50px 50px 0px 25% ;
+}
+
+#btn-google{
+    width: 200px;
+    height: 30px;
+    background:transparent;
+    border:none;
+    border-radius: 30px;
+    font-family: SoDoSans-Regular;
+    color: white;
+    text-shadow: 0.1em 0.2em 0.3em rgba(255, 255, 255, 0.315) ;
+    box-shadow: 0em 0.1em 0.3em rgba(255, 255, 255, 0.212);
+    margin: 30px 50px 0px 33% ;
+    
+
+}
+
+#a-link{
+    color: white;
+    text-shadow: 0.1em 0.2em 0.3em rgba(255, 255, 255, 0.123);
+    font-family: SoDoSans-Regular;
+    font-size: 8pt;
+    position: absolute;
+    top: 530px;
+    left: 48.5%;
+}
+#a-link:hover{
+    text-decoration: none;
+}
+
+
+#btn-google:hover{
+    background: white;
+    color: var(--colorbox);
+    transition: 1s;
+    box-shadow: 0.1em 0.2em 0.3em rgba(53, 50, 50, 0.884);
+    #G-svg{
+        fill: var(--colorbox);
+        transition: 1s;
+        
+    }
+}
+
+
+#a-link2{
+    color: rgb(36, 34, 34);
+    text-shadow: 0.1em 0.2em 0.3em rgba(255, 255, 255, 0.123);
+    font-family: SoDoSans-Regular;
+    font-size: 8pt;
+    position: absolute;
+    top: 530px;
+    left: 48.5%;
+}
+#a-link2:hover{
+    text-decoration: none;
+
+}
+
+
+
+    
