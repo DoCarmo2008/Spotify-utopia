@@ -27,6 +27,7 @@ function ChangeColors(){
     sessao.style.boxShadow = '0.1em 0.2em 0.3em rgb(36, 34, 34)'
 
     logo.style.fill = 'black'
+    logo.style.transition = '2s'
 
     nome_input.style.border = '1px solid black'
     nome_input.placeholder='Crie um nome de usuário'
