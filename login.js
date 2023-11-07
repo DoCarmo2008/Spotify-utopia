@@ -43,6 +43,7 @@ function ChangeColors(){
     goobtn.style.background = 'white'
     goobtn.style.color = 'black'
     goobtn.style.boxShadow = '0.1em 0.2em 0.3em rgba(0, 0, 0, 0.315) '
+    goobtn.style.transition = '2s'
     
 
     gzinho.style.fill = 'black'
