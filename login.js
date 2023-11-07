@@ -1,8 +1,5 @@
 
-
-
 var sessao = document.getElementById('section')
-
 
 var logo = document.getElementById('icone')
 
@@ -13,7 +10,6 @@ var senha_input =  document.getElementById('senha-st')
 var butn = document.getElementById('btn-log')
 
 var goobtn = document.getElementById('btn-google')
-
 
 var link_log = document.getElementById('a-link')
 
@@ -36,11 +32,13 @@ function ChangeColors(){
     nome_input.placeholder='Crie um nome de usuário'
     nome_input.placeholder.color = 'black'
     nome_input.style.transition = '2s'
+    nome_input.style.color = 'black'
 
     senha_input.style.border = '1px solid black'
     senha_input.placeholder='Crie uma senha'
     senha_input.placeholder.color = 'black'
     senha_input.style.transition = '2s'
+    senha_input.style.color = 'black'
 
     goobtn.style.background = 'white'
     goobtn.style.color = 'black'
