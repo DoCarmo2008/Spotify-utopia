@@ -18,7 +18,7 @@ var gzinho = document.getElementById('G-svg')
 var link_cad = document.getElementById('a-link2')
 
 function ChangeColors(){
-    
+    document.querySelector('input[type=text]').style.setProperty("--c", "black");
     document.body.style.backgroundImage = "url('Imagens/topia paper.jpeg')";
     document.body.style.transition = '2s'
 
@@ -31,14 +31,12 @@ function ChangeColors(){
 
     nome_input.style.border = '1px solid black'
     nome_input.placeholder='Crie um nome de usuário'
-    nome_input.placeholder.color = 'black'
     nome_input.style.transition = '2s'
     nome_input.style.color = 'black'
     nome_input.style.placeholderColor = 'black'
 
     senha_input.style.border = '1px solid black'
     senha_input.placeholder='Crie uma senha'
-    senha_input.placeholder.color = 'black'
     senha_input.style.transition = '2s'
     senha_input.style.color = 'black'
     senha_input.style.placeholderColor = 'black'
