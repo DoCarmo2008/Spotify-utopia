@@ -34,12 +34,14 @@ function ChangeColors(){
     nome_input.placeholder.color = 'black'
     nome_input.style.transition = '2s'
     nome_input.style.color = 'black'
+    nome_input.style.placeholderColor = 'black'
 
     senha_input.style.border = '1px solid black'
     senha_input.placeholder='Crie uma senha'
     senha_input.placeholder.color = 'black'
     senha_input.style.transition = '2s'
     senha_input.style.color = 'black'
+    senha_input.style.placeholderColor = 'black'
 
     goobtn.style.background = 'white'
     goobtn.style.color = 'black'
